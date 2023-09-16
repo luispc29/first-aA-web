@@ -1,6 +1,6 @@
 img {
-  width: 100px;
-  border-radius: 50px;
+  width: 300px;
+  border-radius: 150px;
 }
 
 h1 {
@@ -32,7 +32,7 @@ a {
 }
 
 .container {
-  width: 360px;
+  width: 660px;
   margin: 60px auto;
   text-align: center;
 }
