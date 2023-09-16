@@ -6,6 +6,11 @@ img {
 h1 {
   font-size: 36px;
 }
+.topnav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
 h2 {
   font-size: 28px;
