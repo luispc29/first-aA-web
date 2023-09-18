@@ -5,8 +5,13 @@
   </head>
   <body>
     <div class="container">
-      <img src="https://static.zerochan.net/Gol.D..Roger.full.3774351.jpg" />
+      <img class="topimg" src="https://static.zerochan.net/Gol.D..Roger.full.3774351.jpg" />
       <h1>Gol D Roger</h1>
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="soro.html">Soro</a>
+        <a href="monkeyDLuffy.html">Monkey D Luffy</a>
+      </div>
       <h2>King of The Pirates</h2>
       <a href="https://onepiece.fandom.com">One Piece</a>
       <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece">Watch</a>
@@ -17,6 +22,26 @@
         owned the legendary treasure known as One Piece. He was also the lover
         of Portgas D. Rouge and the biological father of Portgas D. Ace.
       </p>
+      <form action="" method="get">
+        <div>
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="name">Enter your last name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <label for="story">Tell us your story:</label>
+
+        <textarea id="story" name="story" rows="5" cols="33">
+It was a dark and stormy night...
+        </textarea>
+
+        <div>
+          <input type="checkbox" id="subscribe" name="subscribe" checked />
+          <label for="scales">Subscribe</label>
+        </div>
+      </form>
     </div>
     <script>
       function toggleDayMode() {

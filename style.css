@@ -1,5 +1,9 @@
-img {
+.topimg {
   width: 300px;
+  border-radius: 150px;
+}
+img {
+  width: 100px;
   border-radius: 150px;
 }
 
